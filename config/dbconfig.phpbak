@@ -1,0 +1,27 @@
+<?php
+
+//$GLOBALS['db']['server']   = "127.0.0.1";
+//$GLOBALS['db']['password'] = "";
+
+$GLOBALS['db']['server']   = "127.0.0.1";
+$GLOBALS['db']['password'] = "guo++dbPass" ;
+
+$GLOBALS['db']['username'] = "root";
+$GLOBALS['db']['database'] = "furniture";
+$GLOBALS['db']['charset']  = "utf8";
+
+// 上传文件存放地址
+$GLOBALS['upload_Path'] = "/mydata/wwwroot/furniture_test/" ;
+
+// 返回给客户端 的图片URL地址头
+$GLOBALS['URL_IMG_HEAD'] = "http://115.159.102.231/furniture_test/" ;
+
+// 需要有分页的返回每页最多多少记录
+$GLOBALS['PAGE_MAX_RECORD'] = 10 ;
+
+$GLOBALS['DEBUG_SQL_LOG'] = false ;
+
+// 时区
+date_default_timezone_set('PRC');
+
+?>
